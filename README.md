@@ -109,4 +109,15 @@ Outputs product-level KPIs:
 
 ## 🏗️ Recommended Folder Structure
 
-
+          datasets/
+          docs/
+          scripts/
+          │
+          ├── 01_change_over_time_analysis.sql
+          ├── 02_cumulative_analysis.sql
+          ├── 03_performance_analysis.sql
+          ├── 04_data_segmentation.sql
+          ├── 05_part_to_whole_analysis.sql
+          ├── 06_report_customers.sql
+          ├── 07_report_products.sql
+          └── README.md
