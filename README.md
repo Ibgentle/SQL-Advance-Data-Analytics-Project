@@ -103,3 +103,10 @@ Outputs product-level KPIs:
           05_part_to_whole_analysis.sql
           06_report_customers.sql
           07_report_products.sql
+3. Query the views to generate BI dashboards or export datasets.
+
+---
+
+## 🏗️ Recommended Folder Structure
+
+
