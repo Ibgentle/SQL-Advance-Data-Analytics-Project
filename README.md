@@ -121,3 +121,18 @@ Outputs product-level KPIs:
           ├── 06_report_customers.sql
           ├── 07_report_products.sql
           └── README.md
+
+
+---
+
+## 🏫 Academic / Portfolio Context
+
+This project demonstrates **intermediate-to-advanced SQL analytics**, suitable for roles in:  
+Data Analytics · BI Engineering · Data Warehousing · Analytics Engineering  
+
+---
+
+## 👨‍💻 Author
+D G A D Hirusha
+
+
